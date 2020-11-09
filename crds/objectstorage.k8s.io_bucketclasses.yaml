@@ -5,6 +5,7 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: (devel)
+    "api-approved.kubernetes.io": "https://github.com/kubernetes/kubernetes/pull/123456"
   creationTimestamp: null
   name: bucketclasses.objectstorage.k8s.io
 spec:
